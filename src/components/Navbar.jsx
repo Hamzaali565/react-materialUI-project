@@ -51,7 +51,7 @@ const Navbar = () => {
            src="https://scontent.fkhi22-1.fna.fbcdn.net/v/t1.6435-9/188384323_1447601038927019_7887706600818859341_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGCL_hYTwG3k08kQD1LvB8Nsc5T_WLrH_GxzlP9Yusf8UL9sMeXCGVl0UPyrwu9aI_Jxl1QzZohUXqIXpF8s3en&_nc_ohc=7FRlBip4joUAX-tigpc&_nc_ht=scontent.fkhi22-1.fna&oh=00_AfAwof37GJPcifAUMMjWyR4bvCvOynHtJ3UWO1Z1k0j0Pw&oe=63B01325"
            onClick = {(e) => setOpen(true)}
            />
-          <Typography variant='span'>Muhammad Hamza Ali</Typography>
+          <Typography variant='span'>Muhammad<br></br>Hamza Ali</Typography>
         </UserBox>
       </StyledToolbar>
       <Menu
