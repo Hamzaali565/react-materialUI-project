@@ -13,7 +13,7 @@ const Rightbar = () => {
       sx={{ display: { xs: 'none', sm: "block" } }}>
       <Box position="fixed" width={300}>
         <Typography variant='h6' fontWeight={100}>Online Friends</Typography>
-        <AvatarGroup max={7}>
+        <AvatarGroup max={7} sx={{marginRight:"40px"}}>
           <Avatar
             alt="Remy Sharp"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-LJaTp0HFRT2GHznf3n7iSAzu-z7och7Vc0GsJkTHWEk67OjQ0t0o6piSTpTv9sr7UI&usqp=CAU" />

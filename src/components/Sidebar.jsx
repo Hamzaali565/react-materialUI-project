@@ -4,7 +4,7 @@ import { AccountBox, Article, Groups, Home, ModeNight, Pages, Person, Settings, 
 import { light } from '@mui/material/styles/createPalette';
 
 
-export const Sidebar = ({mode,setMode}) => {
+const Sidebar = ({ mode, setMode }) => {
   return (
     <Box flex={1} p={2}
       sx={{ display: { xs: 'none', sm: "block" } }}>
@@ -100,7 +100,7 @@ export const Sidebar = ({mode,setMode}) => {
               <ListItemIcon>
                 <ModeNight />
               </ListItemIcon>
-              <Switch onChange={e=> setMode(mode === "light" ? "dark" : "light")}/>
+              <Switch onChange={e => setMode(mode === "light" ? "dark" : "light")} />
             </ListItemButton>
           </ListItem>
         </List>

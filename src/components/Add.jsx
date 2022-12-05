@@ -68,6 +68,8 @@ const Add = () => {
                     variant='contained'
                     aria-label='outlined primary button group'>
                         <Button>Post</Button>
+                        <Button
+                        onClick={()=>{setOpen(false)}}>Cancel</Button>
                     </ButtonGroup>
                 </Box>
             </StyledModal>
